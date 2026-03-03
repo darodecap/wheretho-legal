@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — WhereTho?</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fff;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    header .logo {
+      font-size: 2rem;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #FF6B35;
+    }
+
+    header p {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 2px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 2rem 0 0.6rem;
+      color: #111;
+    }
+
+    p { margin-bottom: 0.8rem; }
+
+    ul {
+      margin: 0.4rem 0 0.8rem 1.4rem;
+    }
+
+    ul li { margin-bottom: 0.3rem; }
+
+    a { color: #FF6B35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .effective-date {
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-divider {
+      border: none;
+      border-top: 1px solid #e5e5e5;
+      margin: 2rem 0;
+    }
+
+    .rights-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.8rem;
+      margin: 0.6rem 0 1rem;
+    }
+
+    .right-item {
+      background: #f7f7f7;
+      border-radius: 8px;
+      padding: 0.8rem 1rem;
+    }
+
+    .right-item strong {
+      display: block;
+      font-size: 0.9rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .right-item span {
+      font-size: 0.85rem;
+      color: #444;
+    }
+
+    @media (max-width: 500px) {
+      .rights-grid { grid-template-columns: 1fr; }
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e5e5e5;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">🍴</div>
+      <div>
+        <h1>WhereTho?</h1>
+        <p>Privacy Policy</p>
+      </div>
+    </header>
+
+    <p class="effective-date">Effective date: March 3, 2026 &nbsp;·&nbsp; Last updated: March 3, 2026</p>
+
+    <p>
+      WhereTho? ("we", "us", or "our") helps groups decide where to eat. This Privacy Policy explains
+      what information we collect, how we use it, and your rights. By using the WhereTho? app you
+      agree to the practices described here.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+
+    <p><strong>Account information.</strong> When you create an account we collect your email address
+    and a display name. Authentication is handled by Clerk (see Section 4).</p>
+
+    <p><strong>Location.</strong> When you use the app to find restaurants, we collect your device's
+    GPS coordinates. Location is only sent to our servers when you initiate a restaurant search or
+    join a group session. We do not track your location in the background.</p>
+
+    <p><strong>Pick history.</strong> We store the restaurants picked for you so you can review past
+    decisions in the app. Each record contains the restaurant name, address, and the date of the pick.</p>
+
+    <p><strong>Usage information.</strong> Apple may collect crash reports and basic usage analytics
+    through Xcode Organizer and TestFlight. We use this data only to fix bugs and improve stability.
+    We do not use any additional analytics SDKs.</p>
+
+    <h2>2. How We Use Your Information</h2>
+
+    <ul>
+      <li>To find restaurants near you using the Google Places API</li>
+      <li>To run group sessions where multiple users vote on a restaurant pick</li>
+      <li>To display your pick history within the app</li>
+      <li>To authenticate you securely across sessions</li>
+      <li>To diagnose crashes and improve app performance</li>
+    </ul>
+
+    <p>We do not use your information for advertising, profiling, or any automated decision-making
+    that produces legal or similarly significant effects on you.</p>
+
+    <h2>3. Legal Bases for Processing (GDPR)</h2>
+
+    <p>If you are located in the European Economic Area (EEA) or United Kingdom, we process your
+    personal data under the following lawful bases:</p>
+
+    <ul>
+      <li><strong>Contract.</strong> Processing your email and pick history is necessary to provide
+      the WhereTho? service you signed up for.</li>
+      <li><strong>Consent.</strong> We ask for your permission before accessing your device's
+      location. You can withdraw consent at any time in your device's Settings.</li>
+      <li><strong>Legitimate interests.</strong> Crash reporting and stability monitoring, balanced
+      against your privacy interests.</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+
+    <p>We share data with the following third parties only as necessary to operate the service:</p>
+
+    <ul>
+      <li>
+        <strong>Clerk</strong> — authentication and account management.
+        Clerk receives your email address and manages session tokens.
+        <a href="https://clerk.com/privacy" target="_blank" rel="noopener">Clerk Privacy Policy</a>
+      </li>
+      <li>
+        <strong>Google Places API</strong> — restaurant search and details.
+        Your location coordinates are sent server-side to Google to find nearby restaurants.
+        We never send your name, email, or account information to Google.
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>
+      </li>
+      <li>
+        <strong>Apple</strong> — app distribution (App Store / TestFlight) and optional crash
+        reporting via Xcode Organizer.
+        <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a>
+      </li>
+      <li>
+        <strong>DigitalOcean</strong> — cloud infrastructure. Your data is stored on servers
+        in the United States.
+        <a href="https://www.digitalocean.com/legal/privacy-policy" target="_blank" rel="noopener">DigitalOcean Privacy Policy</a>
+      </li>
+    </ul>
+
+    <p>We do not sell, rent, or share your personal data with any other third party.</p>
+
+    <h2>5. Data Retention</h2>
+
+    <p>We retain your account data and pick history for as long as your account is active. If you
+    delete your account, all associated personal data is deleted within 30 days. Crash reports
+    retained by Apple are subject to Apple's own retention schedule.</p>
+
+    <h2>6. Your Rights</h2>
+
+    <div class="rights-grid">
+      <div class="right-item">
+        <strong>Access</strong>
+        <span>Request a copy of the personal data we hold about you.</span>
+      </div>
+      <div class="right-item">
+        <strong>Deletion</strong>
+        <span>Ask us to delete your account and all associated data.</span>
+      </div>
+      <div class="right-item">
+        <strong>Correction</strong>
+        <span>Ask us to correct inaccurate data we hold about you.</span>
+      </div>
+      <div class="right-item">
+        <strong>Portability</strong>
+        <span>Request your data in a machine-readable format.</span>
+      </div>
+      <div class="right-item">
+        <strong>Withdrawal of consent</strong>
+        <span>Revoke location permission at any time in device Settings.</span>
+      </div>
+      <div class="right-item">
+        <strong>Objection</strong>
+        <span>Object to processing based on legitimate interests.</span>
+      </div>
+    </div>
+
+    <p>To exercise any of these rights, email us at
+    <a href="mailto:darodecap@mac.com">darodecap@mac.com</a>.
+    We will respond within 30 days. If you are in the EEA and believe we have not addressed your
+    concern, you have the right to lodge a complaint with your local data protection authority.</p>
+
+    <hr class="section-divider" />
+
+    <h2>7. California Residents (CCPA)</h2>
+
+    <p>If you are a California resident, you have the following rights under the California Consumer
+    Privacy Act:</p>
+
+    <ul>
+      <li><strong>Right to Know.</strong> You may request disclosure of the categories and specific
+      pieces of personal information we have collected about you.</li>
+      <li><strong>Right to Delete.</strong> You may request deletion of personal information we
+      have collected from you.</li>
+      <li><strong>Right to Non-Discrimination.</strong> We will not discriminate against you for
+      exercising any of your CCPA rights.</li>
+    </ul>
+
+    <p><strong>We do not sell or share your personal information</strong> as those terms are defined
+    under the CCPA. To submit a request, contact us at
+    <a href="mailto:darodecap@mac.com">darodecap@mac.com</a>.</p>
+
+    <hr class="section-divider" />
+
+    <h2>8. Children's Privacy</h2>
+
+    <p>WhereTho? is not directed at children under 13. We do not knowingly collect personal
+    information from children under 13. If you believe we have inadvertently collected such
+    information, please contact us and we will delete it promptly.</p>
+
+    <h2>9. Security</h2>
+
+    <p>We use HTTPS for all data in transit and store data on access-controlled cloud infrastructure.
+    Authentication tokens are managed by Clerk using industry-standard RS256 JWT signing. No
+    security measure is perfect; we encourage you to use a strong, unique password for your account.</p>
+
+    <h2>10. Changes to This Policy</h2>
+
+    <p>We may update this policy from time to time. When we do, we will update the "Last updated"
+    date at the top. For significant changes, we will notify you via the app or email. Continued
+    use of WhereTho? after changes are posted constitutes acceptance of the updated policy.</p>
+
+    <h2>11. Contact</h2>
+
+    <p>For privacy questions or to exercise your rights:</p>
+    <ul>
+      <li>Email: <a href="mailto:darodecap@mac.com">darodecap@mac.com</a></li>
+    </ul>
+
+    <footer>
+      &copy; 2026 WhereTho? &nbsp;·&nbsp;
+      <a href="mailto:darodecap@mac.com">darodecap@mac.com</a>
+    </footer>
+
+  </div>
+</body>
+</html>
